@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Welcome to RockPaperScissors</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Proza+Libre&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="mainBody">
+
+            <h2>Welcome to Rock, Paper, Scissors ... Please click an image to play against the computer</h2>
+            <hr>
+            <div id="pics">
+                <img src="images/rock.jpg" id="rockImg" onclick="shoot(1)">
+                <img src="images/paper.jpg" id="paperImg" onclick="shoot(2)">
+                <img src="images/scissors.jpg" id="scissorsImg" onclick="shoot(3)">
+            </div>
+            <hr>
+            <h2>Welcome to the game play statistics!</h2>
+            <p id="choice"></p>
+            <div id="tabbed">
+                <p id="wins">Wins: 0</p>
+                <p id="losses">Losses: 0</p>
+                <p id="ties">Ties: 0</p>
+            </div>
+        </div>
+        <script src='main.js'></script>
+    </body>
+</html>

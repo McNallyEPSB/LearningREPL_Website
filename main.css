@@ -1,0 +1,54 @@
+img:hover{
+    background-color: blue;
+}
+#rockImg, #paperImg, #scissorsImg {
+    width: 20%;
+    height: auto;
+    border: 3px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+
+#pics{
+    text-align: center;
+}
+#mainBody{
+    background-color: white;
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main{
+    background-color: white;
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2{
+    font-family: 'Proza Libre';
+}
+
+p{
+    margin: 0px;
+}
+
+#tabbed{
+    padding-left: 10%;
+}
+body{
+    background-color: #cabfb6;
+    font-family: 'Open Sans', 'Open Sans Condensed' ;
+    /* text-align: center; */
+    align-items: center;
+}
